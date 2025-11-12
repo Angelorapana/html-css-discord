@@ -38,8 +38,11 @@ header{
 
 
 
-.s {
-height: 300px;
+.jumbo {
+height: 30rem;
+background-image: url(img/jumbo.png);
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .m{
