@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
+
 header{
-    background-color: rgb(56, 155, 241);
+    background-color: rgb(4 109 193 / 93%);
     height: 5rem;
     display: flex;
     justify-content: center;
@@ -32,25 +33,42 @@ header{
 
 /*fine header*/
 
-.container{
-    display: flex;  
-}
+
+/* contenitori*/
 
 
-
-.jumbo {
-height: 30rem;
+.containerjumbo {
+height: 25rem;
 background-image: url(img/jumbo.png);
 background-size: cover;
 background-repeat: no-repeat;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+
 
 .m{
     height: 450px;
 }
 
 .b{
-    height: 600px;
+    height: 900px;
+}
+
+.answer{
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+background-image: url(img/stars.svg);
+background-size: contain;
+background-repeat: no-repeat;
+margin: auto;
 }
 
 
@@ -76,16 +94,105 @@ background-repeat: no-repeat;
 /*fine proprietà colore container*/
 
 
-.rectangular{
+.big{
     display: flex;
     margin:auto;
-    height: 200px;
-    width: 850px;
-    background-color: rgb(177, 15, 153);
-    border: 5px dashed rgb(11, 11, 11);
+    background-image: url(img/item4-big.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.rectangularmedium{
+.text{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 3rem 40rem;
+    width: 15rem;
+}
+
+.studygroup{
+    background-image: url(img/item1.svg);
+}
+
+.voice{
+    background-image: url(img/item2.svg);
+}
+
+.chat{
+    background-image: url(img/item3.svg);
+}
+
+
+
+.containervoiceconnected {
+    display: flex;
+    flex-basis: 30%;
+    background-image: url(img/item2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.textvoiceconnected{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 5rem 47rem;
+    width: 15rem;
+}
+
+
+.col1{
+    display: flex;
+    margin:auto;
+    flex-direction: column;
+    flex-basis: 15%;
+    height: 400px;
+    margin-top: 10px;
+    background-color: rgb(7, 22, 226);
+    border-left: 5px dashed rgb(252, 253, 254);
+    border-bottom: 5px dashed rgb(251, 251, 253);
+    border-top: 5px dashed rgb(246, 247, 248);
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    flex-basis: 15%;
+    height: 400px;
+    margin-top: 10px;
+    background-color: rgb(7, 22, 226);
+    border-left: 5px dashed rgb(252, 253, 254);
+    border-bottom: 5px dashed rgb(251, 251, 253);
+    border-top: 5px dashed rgb(246, 247, 248);
+}
+
+.col3{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    flex-basis: 15%;
+    height: 400px;
+    margin-top: 10px;
+    background-color: rgb(7, 22, 226);
+    border-left: 5px dashed rgb(252, 253, 254);
+    border-bottom: 5px dashed rgb(251, 251, 253);
+    border-top: 5px dashed rgb(246, 247, 248);
+}
+
+.col4{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    flex-basis: 15%;
+    height: 400px;
+    margin-top: 10px;
+    margin-right: 9.5rem;
+    background-color: rgb(7, 22, 226);
+    border: 5px dashed rgb(246, 247, 248);
+}
+
+.colbig{
     display: flex;
     margin:auto;
     flex-basis: 80%;
@@ -96,90 +203,10 @@ background-repeat: no-repeat;
     border: 5px dashed rgb(11, 11, 11);
 }
 
-
-.rectangularbig{
+.lastcontainer{
     display: flex;
-    margin:auto;
-    flex-basis: 80%;
-    height: 550px;
-    background-color: rgb(4, 135, 48);
-    border: 5px dashed rgb(11, 11, 11);
 }
 
-/*fine composizione rettangoli*/
-
-.rmedium{
-    display: flex;
-    flex-basis: 80%;
-    background-color: rgb(134, 232, 248);
-    margin: auto;
-    height: 200px;
-    border: 5px dashed rgb(11, 11, 11);
-}
-
-.rsmall{
-    display: flex;
-    flex-basis: 30%;
-    background-color: rgb(255, 48, 231);
-    border-right: 5px dashed  black;
-}
-
-.r1{
-    display: flex;
-    margin:auto;
-    flex-basis: 15%;
-    height: 400px;
-    margin-top: 10px;
-    background-color: rgb(7, 22, 226);
-    border-left: 5px dashed rgb(252, 253, 254);
-    border-bottom: 5px dashed rgb(251, 251, 253);
-    border-top: 5px dashed rgb(246, 247, 248);
-}
-.r2{
-    display: flex;
-    margin:auto;
-    flex-basis: 15%;
-    height: 400px;
-    margin-top: 10px;
-    background-color: rgb(7, 22, 226);
-    border-left: 5px dashed rgb(252, 253, 254);
-    border-bottom: 5px dashed rgb(251, 251, 253);
-    border-top: 5px dashed rgb(246, 247, 248);
-}
-.r3{
-    display: flex;
-    margin:auto;
-    flex-basis: 15%;
-    height: 400px;
-    margin-top: 10px;
-    background-color: rgb(7, 22, 226);
-    border-left: 5px dashed rgb(252, 253, 254);
-    border-bottom: 5px dashed rgb(251, 251, 253);
-    border-top: 5px dashed rgb(246, 247, 248);
-}
-.r4{
-    display: flex;
-    margin:auto;
-    flex-basis: 15%;
-    height: 400px;
-    margin-top: 10px;
-    margin-right: 9.5rem;
-    background-color: rgb(7, 22, 226);
-    border: 5px dashed rgb(246, 247, 248);
-}
-
-
- /*colori rettangoli*/
-
-.a{
-    background-color: aqua;
-}
-
-.p{
-    background-color: pink;
-}
-
-/*fine composizione contenuti rettangoli, fine main*/
 
 /*START FOOTER*/
 
