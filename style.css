@@ -34,8 +34,8 @@ header{
 /*fine header*/
 
 
-/* contenitori*/
 
+/* MAIN contenitori*/
 
 .containerjumbo {
 height: 25rem;
@@ -52,46 +52,17 @@ background-repeat: no-repeat;
     padding: 3rem;
 }
 
+ /*proprietà container*/
 
-.m{
-    height: 450px;
-}
+.m{height: 450px;}
+.b{height: 900px;}
 
-.b{
-    height: 900px;
-}
-
-.answer{
-text-align: center;
-font-size: 35px;
-font-weight: bold;
-background-image: url(img/stars.svg);
-background-size: contain;
-background-repeat: no-repeat;
-margin: auto;
-}
-
-
- /*fine proprietà dimensione container*/
-
-
-.blue{
-    background-color: rgb(3, 3, 132);
-}
-
-.white{
-    background-color: rgb(242, 242, 245);
-}
-
-.gray{
-    background-color: gray;
-}
-
-.black{
-    background-color: black;
-}
-
-/*fine proprietà colore container*/
+.blue{background-color: rgb(3, 3, 132);}
+.white{background-color: rgb(242, 242, 245);}
+.gray{background-color: gray;}
+.black{background-color: black;}
+    
+/*fine proprietà container*/
 
 
 .big{
@@ -141,90 +112,105 @@ margin: auto;
     width: 15rem;
 }
 
+.answer{
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+background-image: url(img/stars.svg);
+background-size: contain;
+background-repeat: no-repeat;
+margin: auto;
+}
+
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.lastcontainer{display: flex;}
+    
+
+/*COLONNE*/
 
 .col1{
     display: flex;
-    margin:auto;
+    margin: auto;
     flex-direction: column;
-    flex-basis: 15%;
-    height: 400px;
-    margin-top: 10px;
-    background-color: rgb(7, 22, 226);
-    border-left: 5px dashed rgb(252, 253, 254);
-    border-bottom: 5px dashed rgb(251, 251, 253);
-    border-top: 5px dashed rgb(246, 247, 248);
+    flex-basis: 20%;
+    height: 300px;
+    margin-top: 4rem;
+    color: white;
 }
 .col2{
     display: flex;
+    margin: auto;
     flex-direction: column;
-    margin:auto;
-    flex-basis: 15%;
-    height: 400px;
-    margin-top: 10px;
-    background-color: rgb(7, 22, 226);
-    border-left: 5px dashed rgb(252, 253, 254);
-    border-bottom: 5px dashed rgb(251, 251, 253);
-    border-top: 5px dashed rgb(246, 247, 248);
+    flex-basis: 20%;
+    height: 300px;
+    margin-top: 4rem;
+    color: white;
 }
 
 .col3{
     display: flex;
+    margin: auto;
     flex-direction: column;
-    margin:auto;
-    flex-basis: 15%;
-    height: 400px;
-    margin-top: 10px;
-    background-color: rgb(7, 22, 226);
-    border-left: 5px dashed rgb(252, 253, 254);
-    border-bottom: 5px dashed rgb(251, 251, 253);
-    border-top: 5px dashed rgb(246, 247, 248);
+    flex-basis: 20%;
+    height: 300px;
+    margin-top: 4rem;
+    color: white;
 }
 
 .col4{
     display: flex;
+    margin: auto;
     flex-direction: column;
-    margin:auto;
-    flex-basis: 15%;
-    height: 400px;
-    margin-top: 10px;
-    margin-right: 9.5rem;
-    background-color: rgb(7, 22, 226);
-    border: 5px dashed rgb(246, 247, 248);
+    flex-basis: 33%;
+    height: 300px;
+    margin-top: 4rem;
+    color: white;
 }
 
 .colbig{
     display: flex;
-    margin:auto;
-    flex-basis: 80%;
-    height: 400px;
-    margin-top: 10px;
+    flex-direction: column;
+    margin: auto;
+    flex-basis: 44%;
+    height: 300px;
+    margin-top: 4rem;
     margin-left: 9.5rem;
-    background-color: rgb(226, 7, 175);
-    border: 5px dashed rgb(11, 11, 11);
-}
-
-.lastcontainer{
-    display: flex;
-}
-
-
-/*START FOOTER*/
-
-footer{
-    background-color: black;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
 }
 
 
 .barend{ 
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     width: 80%;
     padding: 0 20px;
-    background-color: aqua;
-    margin-top: 20px;
-
+    background-color: black;
+    margin-top: 2rem;
+    margin: 1rem auto;
 }
+
+article{
+    padding: 18px;
+    border-radius: 999px;
+    margin-left: 18px;
+    width: 120px;
+    text-align: center;
+        background-color: blue;
+    font-size: 18px;
+    color: white;
+}
+
+h2 {
+    font-size: 18px;
+    color: rgb(77, 77, 241);
+}
+
+
