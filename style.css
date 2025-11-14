@@ -45,7 +45,12 @@ color : black;
 .open{width: auto;
 background-color: black;
 color : white;
+}
 
+.login{
+    background-color: white;
+    color: black;
+    padding: 5px;
 }
 
 /*link*/
@@ -54,11 +59,10 @@ color : white;
 color: white;
 }
 
-
 /*fine header*/
 
 
-/* MAIN contenitori*/
+/*MAIN contenitori*/
 
 .containerjumbo {
 height: 25rem;
@@ -67,75 +71,60 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
-.container{
+.containermain{
     display: flex;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 3rem;
-    justify-content: space-around;
+    background-color: white;
+    height: 525px;
 }
 
-
-.big{
-    display: flex;
-    background-image: url(img/item4-big.svg);
-    background-size: contain;
-    margin: 5rem;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-
-.text{
+.containerbig {
     display: flex;
     flex-direction: column;
-    margin: 3rem 40rem;
-    width: 15rem;
+    justify-content: center;
+    background-color: white;
+    flex-basis: 55%;
+    height: 300px;
+    margin-top: 10%;
+    text-align: center;
+    padding: 150px;
+    gap: 1rem;
 }
 
-.center{
+.containersmall{
+    background-color: white;
+    flex-basis: 45%;
+    height: 300px;
+    margin-top: 10%;
+    }
+
+.reverse{
     display: flex;
-    flex-direction: column;
-    margin: 3rem 1rem;
-    width: 15rem;
+    flex-direction: row-reverse;
+    background-color: gray;
 }
 
-.studygroup{background-image: url(img/item1.svg);}
 
-.voice{background-image: url(img/item2.svg);
-background-size: contain;
-width: 500px;}
-
-.chat{background-image: url(img/item3.svg);}
-    
+.r{margin-right: 100px;}
+.l{margin-left: 100px;}
+.bg-gray{background-color: gray;}
 
 
+/*immagini contenitori*/
 
-.containervoiceconnected {
-    display: flex;
-    flex-basis: 30%;
+.item1{
+    background-image: url(img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;}
+
+.item2{
     background-image: url(img/item2.svg);
     background-size: contain;
-    background-repeat: no-repeat;
-}
+    background-repeat: no-repeat;}
 
-
-.textvoiceconnected{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    margin: 5rem 47rem;
-    width: 15rem;
-}
-
-.answer{    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    background-image: url(img/stars.svg);
-    background-size: 350px;
-    background-repeat: no-repeat;
-    margin: auto;
-    background-position-x: center;
-    background-position-y: center;}
+.item3{
+    background-image: url(img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;}
 
  /*proprietà container*/
 
@@ -152,6 +141,16 @@ width: 500px;}
     
 /*fine proprietà container*/
 
+/*Proprietà text*/
+.s18{
+    font-size: 18px;
+    color: blue;
+}
+
+h2 {
+    font-size: 25px;
+}
+
 
 /*FOOTER*/
 footer{
@@ -162,6 +161,45 @@ footer{
 
 .lastcontainer{display: flex;}
     
+.containerfooter{
+    display:flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 950px;
+}
+
+
+.image{
+    background-image: url(img/item4-big.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    height: 400px;
+    padding: 19%;
+}
+
+
+.answer{    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    justify-content: space-evenly;
+    font-size: 28px;
+    font-weight: bold;
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    padding: 3rem;
+    background-position-x: center;}
+
+
+    .dimensionebutton{
+        width: max-content;
+    margin: 0 auto;  
+    margin-bottom: 130px;
+    color: white;
+    background-color: rgb(36, 116, 167); 
+    }
 
 /*COLONNE*/
 
@@ -235,19 +273,6 @@ article{
         background-color: blue;
     font-size: 18px;
     color: white;
-}
-
-.login{
-    background-color: white;
-    color: black;
-    padding: 5px;
-}
-
-
-
-h2 {
-    font-size: 18px;
-    color: blue;
 }
 
 
