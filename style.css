@@ -138,7 +138,20 @@ background-repeat: no-repeat;
 .white{background-color: rgb(242, 242, 245);}
 .gray{background-color: gray;}
 .black{background-color: black;}
-    
+
+.wave{
+    height: 150px;
+    background-image: url(img/wave.svg);
+    filter: opacity(0.5);
+}
+
+.wavereverse{
+    height: 150px;
+    background-image: url(img/wave.svg);
+    transform: rotate(180deg);
+    filter: opacity(0.5);
+}
+
 /*fine proprietà container*/
 
 /*Proprietà text*/
